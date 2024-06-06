@@ -27,7 +27,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'whitenoise.runserver_nostatic',
-    'results',
+    'pri1',
+    'pri2',
+    'pri3',
+    'pri4',
+    'pri5',
+    'nursery1',
+    'nursery2',
+    'prenursery',
+    'creche',
 ]
 
 MIDDLEWARE = [
