@@ -1,8 +1,13 @@
 from django.db import models
-
+from django.contrib.auth.models import User
 # Create your models here.
 class MathematicsScores(models.Model):
     title = models.CharField(max_length=50, verbose_name="Mathematics Scores")
+    student = models.ForeignKey(User, verbose_name="User", on_delete=models.CASCADE)
+    test1 = models.PositiveIntegerField(default=0, null=True, blank=True)
+    test2 = models.PositiveIntegerField(default=0, null=True, blank=True)
+    classorhomework = models.PositiveIntegerField(default=0, null=True, blank=True)
+    exams = models.PositiveIntegerField(default=0, null=True, blank=True)
     class Meta:
         verbose_name_plural = "Maths Scores"
 
