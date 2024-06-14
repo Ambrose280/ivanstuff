@@ -7,113 +7,113 @@ admin.site.site_title = 'IVAN Schools Administration'
 
 
 class MathAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 class EnglishAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 class LiteratureAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 class BscBtechAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 class ComputerAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 class PHEAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 class AgricAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 class SocialAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 class CivicAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 class CRKAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 class CreativeArtsAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 class CreativeWritingAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 
 class AbacusAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 class SpellingsAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 class VerbalAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 class QuantAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 class HistoryAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 class MusicAdmin(admin.ModelAdmin):
-    list_display = ('title',)
-    list_filter = ('title',)
+    list_display = ('pupil',)
+    list_filter = ('pupil',)
     list_per_page = 100
-    search_fields = ('title',)
+    search_fields = ('pupil',)
 
 
 admin.site.register(MusicScores, MusicAdmin)

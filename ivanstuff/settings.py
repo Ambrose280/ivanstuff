@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'nursery2',
     'prenursery',
     'creche',
+    'pupilbase',
 ]
 
 MIDDLEWARE = [
